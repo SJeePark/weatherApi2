@@ -1,0 +1,21 @@
+body{
+    background: url(https://cdn.pixabay.com/photo/2024/06/06/02/44/cloud-8811562_1280.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.weatherbox{
+    border: 3px solid skyblue;
+    padding: 50px;
+    border-radius: 10px;
+    background-color: white;
+}
