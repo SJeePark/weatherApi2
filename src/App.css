@@ -19,3 +19,11 @@ body{
     border-radius: 10px;
     background-color: white;
 }
+
+.title{
+    margin-bottom: 1.2rem;
+}
+
+Button{
+    margin: 20px 5px;
+}
