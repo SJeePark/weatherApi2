@@ -16,6 +16,7 @@ const WeatherButton = ({cities, setCity, currentBtn, click, setClick}) => {
     setClick(city); 
   };
 
+
   return (
     <div className='btnlist'>
       <Button
@@ -34,6 +35,7 @@ const WeatherButton = ({cities, setCity, currentBtn, click, setClick}) => {
           {item}
         </Button>
       ))}
+
     </div>
   )
 }

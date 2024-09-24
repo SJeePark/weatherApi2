@@ -1,8 +1,9 @@
 body{
-    background: url(https://cdn.pixabay.com/photo/2024/06/06/02/44/cloud-8811562_1280.jpg);
+    background: url(https://cdn.pixabay.com/photo/2016/11/05/12/38/fuzzy-1800136_1280.jpg);
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: 'Arita-dotum-Medium';
 }
 
 .container{
@@ -21,9 +22,68 @@ body{
 }
 
 .title{
+    padding-top: 2rem;
     margin-bottom: 1.2rem;
+    font-family: 'PyeongChangPeace-Bold';
 }
 
 Button{
     margin: 20px 5px;
+}
+
+.searching {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+input {
+    margin-right: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+    width: 270px;
+}
+
+button {
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: skyblue;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(81, 138, 203);
+}
+
+.btnlist{
+    background-color: rgba(205, 205, 205, 0.766);
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 0px 20px;
+    margin-bottom: 20px;
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%; /* 부모 요소의 전체 너비 차지 */
+    height: auto; /* 아이콘의 높이는 내용에 맞게 자동 설정 */
+}
+
+@font-face {
+    font-family: 'PyeongChangPeace-Bold';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/PyeongChangPeace-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Arita-dotum-Medium';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Arita-dotum-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
